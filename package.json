@@ -1,0 +1,24 @@
+{
+  "name": "web-to-markdown",
+  "version": "0.1.0",
+  "description": "Fetch a web page with Chromium (via Playwright) and convert it to Markdown",
+  "type": "module",
+  "bin": {
+    "web-to-markdown": "bin/web-to-markdown.js"
+  },
+  "exports": "./src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0"
+  },
+  "license": "MIT"
+}
